@@ -1,0 +1,8 @@
+BotAPI = {}
+
+
+function BotAPI:NameCheck(obj)
+    warn(game.Players.LocalPlayer.Name)
+end
+
+return BotAPI
